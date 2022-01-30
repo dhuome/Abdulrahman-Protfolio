@@ -3,7 +3,7 @@
   padding: 0;
   scroll-behavior: smooth;
 }
-body {
+body ,html {
   background: linear-gradient(#200016, #10001f);
   height: 100vh;
   font-family: "Roboto Condensed", sans-serif;
@@ -348,27 +348,22 @@ h2 {
     }
   }
   footer {
+    font-family: "Roboto Condensed", sans-serif;
     background: linear-gradient(90deg, #200016, #10001f,#000120);
     box-shadow: 0 0 2px whitesmoke;
-  }
-  h5 {
-    font-family: "Optima";
-    font-size: larger;
-    letter-spacing: 3px;
-  }
-  #box5 {
-    margin: 1%;
-    display: flex;
-    align-items: center;
-    justify-content: start;
     color: white;
   }
-  #box6 {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    color: white;
+
+  footer h2 {
+      margin-top: 20px;
+      font-size: 40px;
+
   }
+  footer h5 {
+    margin-top: 5px;
+    font-size: 20px;
+
+}
 
 @media screen and (max-width: 600px) {
   * {
@@ -441,29 +436,100 @@ h2 {
     display: flex;
     margin-top: 10px;
   }
-  .card img {
-    width: 250px;
+
+  .card2 {
+    flex-direction: column;
+    
+  }
+  .card2 img {
+    width: 400px;
     height: 200px;
-    border-radius: 10px;
-    box-shadow: 0 4px 30px rgb(0, 0, 0);
+  }
+  .card2 h5 {
+      margin-top: 40px;
+      font-size: 20px;
+  }
+  .card2 p {
+    width: 400px;
+    margin-top: 30px;
+    font-size: 12px;
+  }
+  .card2 button {
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .card img {
+    width: 450px;
+    height: 300px;
   }
   .card h5 {
-    margin-top: 10px;
-    margin-right: 10px;
-    font-size: 15px;
+    margin-top: 40px;
+    font-size: 20px;
   }
   .card p {
-    width: 300px;
-    color: whitesmoke;
-    margin-top: 10px;
-    margin-right: 15px;
-    font-size: 10px;
-    text-align: justify;
+    width: 400px;
+    margin-top: 30px;
+    font-size: 12px;
   }
   .card button {
-      font-size: 10px;
-    position: relative;
-    left: -20px;
     margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 20px;
   }
+  .box4 img {
+    max-width: 80%;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+  }
+  .box4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin: 40px 20px 40px 20px;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.178);
+  }
+  .box4 h1 {
+      margin-top: 40px;
+      margin-left: 45px;
+
+    
+  }
+  .box4 h3 {
+      margin-left: 85px;
+}
+
+.box4 p {
+    margin-left: 45px;
+    font-size: 12px;
+}
+footer p {
+    font-size: 10px;
+    color: white;
+  }
+
+  footer h2 {
+      margin-top: 20px;
+      font-size: 16px;
+
+  }
+  footer h5 {
+    margin-top: 5px;
+    font-size: 16px;
+
+}
+  
 }
