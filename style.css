@@ -60,7 +60,7 @@ a.active {
   height: 100vh;
   width: 100%;
 }
-.main::after {
+.main::after  {
   content: "";
   position: absolute;
   bottom: 0;
@@ -403,10 +403,9 @@ h2 {
   }
   .content p {
     font-size: 10px;
-    margin: 10px;
-    width: 400px;
-    color: rgba(255, 255, 255, 0.747);
     padding: 1rem;
+    width: 90vw;
+    color: rgba(255, 255, 255, 0.747);
   }
   #rev-flex {
     display: flex;
