@@ -29,7 +29,6 @@ let boat = document.getElementById("boat");
 let intro = document.querySelector("#intro");
 window.onscroll = function () {
   let value = scrollY;
-  console.log(value);
   stars.style.left = value + "px";
   moon.style.top = value * 4 + "px";
   mountains1.style.top = value * 1 + "px";
