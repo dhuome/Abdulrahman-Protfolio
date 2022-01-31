@@ -365,7 +365,7 @@ h2 {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   * {
     margin: 0;
     padding: 0;
@@ -383,7 +383,7 @@ h2 {
   /* for the border desing */
   header ul li a {
     padding: 3px 7.5px;
-    font-size: 14px;
+    font-size: 10px;
   }
   .content {
     display: flex;
@@ -420,13 +420,11 @@ h2 {
   }
 
   .dot {
-    height: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     width: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #bbb;
-    border-radius: 50%;
-    transition: background-color 0.6s ease;
+    height: 10px;
+
   }
   .active {
     background-color: #717171;
@@ -443,44 +441,45 @@ h2 {
     
   }
   .card2 img {
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 180px;
   }
   .card2 h5 {
       margin-top: 40px;
       font-size: 20px;
   }
   .card2 p {
-    width: 400px;
+    width: 300px;
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 10px;
   }
   .card2 button {
     margin-top: 30px;
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 10px;
     margin-left: 20px;
   }
   .card {
     flex-direction: column;
     padding: 10px;
-    padding-top: 15px;  }
+    padding-top: 15px;  
+}
   .card img {
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
   }
   .card h5 {
     margin-top: 40px;
     font-size: 20px;
   }
   .card p {
-    width: 400px;
+    width: 300px;
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 10px;
   }
   .card button {
     margin-top: 30px;
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 10px;
     margin-left: 20px;
   }
@@ -491,32 +490,28 @@ h2 {
     box-shadow: 0px 0px 15px rgb(0, 0, 0);
   }
   .box4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column-reverse;
-    margin: 40px 20px 40px 20px;
-    max-width: 800px;
-    background: rgba(255, 255, 255, 0.16);
-    border-radius: 16px;
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.26);
-    backdrop-filter: blur(3.9px);
-    -webkit-backdrop-filter: blur(3.9px);
-    border: 1px solid rgba(255, 255, 255, 0.178);
+    width: fit-content;
   }
   .box4 h1 {
-      margin-top: 40px;
-      margin-left: 45px;
+      margin: auto;
+      font-size: 25px;
+      text-align: center;
 
     
   }
   .box4 h3 {
-      margin-left: 85px;
+      font-size: 14px;
+      text-align: center;
+      margin: 0;
 }
 
 .box4 p {
-    margin-left: 45px;
-    font-size: 12px;
+    font-size: 10px;
+    width: 350px;
+    padding: 15px;
+    margin: auto;
+    
 }
 footer p {
     font-size: 8px;
@@ -543,11 +538,6 @@ footer img {
   #intro{
       opacity: 0;
   }
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+
   
 }
