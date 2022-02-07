@@ -549,6 +549,10 @@ footer img {
   #intro{
       opacity: 0;
   }
+  #boat{
+    opacity: 0;
+
+  }
 
   
 }
