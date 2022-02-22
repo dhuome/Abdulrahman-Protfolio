@@ -67,6 +67,10 @@ a.active {
   width: 100%;
   background: linear-gradient(to top, #200016, transparent);
 }
+section{
+  background: linear-gradient(#200016, #10001f,transparent);
+
+}
 .main img {
   position: absolute;
   width: 100%;
